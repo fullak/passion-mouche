@@ -42,6 +42,6 @@ export default {
 .background-img{
   height: 600px;
   width: max-content;
-  opacity: 80%;
+  opacity: 0.5;
 }
 </style>
