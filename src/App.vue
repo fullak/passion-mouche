@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavBar />
-    <Home />
+    <router-view></router-view>
     <Footer />
 
   </div>
@@ -9,20 +9,21 @@
 
 <script>
 import NavBar from './components/navBar.vue'
-import Home from './pages/home'
 import Footer from './components/footer'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    Home,
     Footer,
   }
 }
 </script>
 
 <style>
+a{
+  color: #2c3e50 !important;
+}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;

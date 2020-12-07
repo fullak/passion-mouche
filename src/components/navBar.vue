@@ -1,9 +1,9 @@
 <template>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <router-link to="/" class="navbar-item">
         <h1 class="title main-title">Passion Mouche</h1>
-      </a>
+      </router-link>
 
       <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -14,21 +14,13 @@
 
     <div class="navbar-end">
       <div class="navbar-start">
-        <a class="navbar-item">
-          Accueil
-        </a>
+        <router-link to="/" class="navbar-item">Accueil</router-link>
 
-        <a class="navbar-item">
-          Agenda
-        </a>
+        <router-link to="/articles" class="navbar-item link">Articles</router-link>
 
-        <a href="#" class="navbar-item">
-          Médias
-        </a>
+        <router-link to="/calendar" class="navbar-item link">Calendrier</router-link>
 
-        <a href="#" class="navbar-item">
-          Contact
-        </a>
+        <router-link to="/contact" class="navbar-item link">Contact</router-link>
       </div>
     </div>
   </nav>

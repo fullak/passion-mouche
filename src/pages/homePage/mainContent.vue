@@ -1,7 +1,7 @@
 <template>
   <div class="mainContent-container">
     <div class="first-content">
-      <div class="text-content box">
+      <div class="text-content box article">
         <h2 class="title">Bienvenue</h2>
         <p>
           Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
@@ -16,8 +16,9 @@
         </p>
       </div>
     </div>
+
     <div class="img-container">
-      <img src="../../assets/img/2.jpg" class="img-content"/>
+      <img src="../../assets/img/2.jpg" class="img-content" alt="#"/>
     </div>
 
     <div class="second-content">
@@ -41,52 +42,32 @@
     <h2 class="title Articles">Last articles</h2>
     <div class="third-content">
       <div class="text-content3 box">
-        <div class="testImg">
-          <img src="../../assets/img/articleDecoration/article1.jpg" alt="" class="article-decoration">
-        </div>
-        <h3 class="subtitle">Testing</h3>
-        <p>
-          Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-          top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-          innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-          intuitive benefits vis-a-vis worldwide quality vectors.
-        </p>
+        <router-link to="/oneArticle">
+          <div class="testImg">
+            <img src="../../assets/img/articleDecoration/article1.jpg" alt="" class="article-decoration">
+          </div>
+          <h3 class="subtitle">Testing</h3>
+          <p>
+            Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
+            top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
+            innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
+            intuitive benefits vis-a-vis worldwide quality vectors.
+          </p>
+        </router-link>
       </div>
       <div class="text-content3 box">
-        <div class="testImg">
-          <img src="../../assets/img/articleDecoration/article2.jpg" alt="" class="article-decoration">
-        </div>
-        <h3 class="subtitle">Testing</h3>
-        <p>
-          Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-          top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-          innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-          intuitive benefits vis-a-vis worldwide quality vectors.
-        </p>
-      </div>
-      <div class="text-content3 box">
-        <div class="testImg">
-          <img src="../../assets/img/articleDecoration/article3.jpg" alt="" class="article-decoration">
-        </div>
-        <h3 class="subtitle">Testing</h3>
-        <p>
-          Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-          top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-          innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-          intuitive benefits vis-a-vis worldwide quality vectors.
-        </p>
-      </div>
-      <div class="text-content3 box">
-        <div class="testImg">
-          <img src="../../assets/img/articleDecoration/article4.jpg" alt="" class="article-decoration">
-        </div>
-        <h3 class="subtitle">Testing</h3>
-        <p>
-          Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-          top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-          innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-          intuitive benefits vis-a-vis worldwide quality vectors.
-        </p>
+        <router-link to="/oneArticle">
+          <div class="testImg">
+            <img src="../../assets/img/articleDecoration/article2.jpg" alt="" class="article-decoration">
+          </div>
+          <h3 class="subtitle">Testing</h3>
+          <p>
+            Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
+            top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
+            innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
+            intuitive benefits vis-a-vis worldwide quality vectors.
+          </p>
+        </router-link>
       </div>
     </div>
   </div>
@@ -118,7 +99,6 @@ export default {
   width: 300px;
   height: 300px;
   margin-top: 1rem;
-  margin-left: 5rem;
   border-radius: 50%;
 }
 
@@ -137,7 +117,6 @@ export default {
   background-image: url("../../assets/img/4.jpg");
   background-size: cover;
   opacity: 80%;
-  width: 120%;
   height: 500px;
   left: 0;
   margin: 0 -10rem;

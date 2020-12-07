@@ -1,6 +1,6 @@
 <template>
   <div class="introduction-container">
-    <img src="../../assets/img/3.jpg" class="background-img"/>
+    <img src="../../assets/img/3.jpg" class="background-img" alt="background image"/>
     <div class="introduction-box box scale-up-center">
       <h2 class="title">Etang de Givallois</h2>
       <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi corporis dolore dolorem eligendi error hic ipsa ipsum laborum, modi natus nobis obcaecati repellendus saepe temporibus. Eos in modi odit.</p>
