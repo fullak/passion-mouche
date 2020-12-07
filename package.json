@@ -6,13 +6,17 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy": "sh deploy.sh"
+    "deploy": "sh deploy.sh",
+    "css-build": "node-sass --omit-source-map-url src/assets/main.scss src/assets/main.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bulma": "^0.9.1",
     "bulma-calendar": "^6.0.9",
     "core-js": "^3.6.5",
+    "node-sass": "^5.0.0",
     "sass": "^1.29.0",
     "sass-loader": "^10.1.0",
     "vue": "^2.6.11",

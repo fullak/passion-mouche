@@ -1,3 +1,5 @@
 module.exports = {
-    publicPath: '/passion-mouche/'
-  }
+    css: {
+      sourceMap: true
+    }
+}
