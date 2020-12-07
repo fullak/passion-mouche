@@ -92,7 +92,7 @@ export default {
 }
 
 .box{
-  opacity: 85%;
+  opacity: 0.8%;
 }
 
 .img-container{
@@ -116,7 +116,7 @@ export default {
 .text-content2{
   background-image: url("../../assets/img/4.jpg");
   background-size: cover;
-  opacity: 80%;
+  opacity: 0.8%;
   height: 500px;
   left: 0;
   margin: 0 -10rem;

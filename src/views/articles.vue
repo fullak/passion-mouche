@@ -83,7 +83,7 @@ export default {
 }
 
 .img-head{
-  opacity: 80%;
+  opacity: 0.8;
 }
 
 .articles-title{

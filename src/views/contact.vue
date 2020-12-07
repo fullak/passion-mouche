@@ -58,7 +58,7 @@ export default {
 }
 
 .contact-img {
-  opacity: 70%;
+  opacity: 0.7;
 }
 
 .contact-title {
