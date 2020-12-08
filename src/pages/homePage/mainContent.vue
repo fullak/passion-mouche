@@ -27,9 +27,9 @@
       </div>
     </div>
 
-    <Parallax direction="up" class="el">
-      <img src="../../assets/img/articleDecoration/article2.jpg" alt="" class="test">
-    </Parallax>
+
+    <img src="../../assets/img/articleDecoration/article2.jpg" alt="" class="test">
+
 
     <h2 class="title Articles">Last articles</h2>
     <div class="third-content">
@@ -64,12 +64,10 @@
 </template>
 
 <script>
-import Parallax from 'vue-parallaxy';
 
 export default {
   name: 'mainContent',
   components: {
-    Parallax,
   }
 }
 </script>
@@ -78,7 +76,7 @@ export default {
 .img-container {
   height: 200px;
   width: 200px;
-  margin: auto;
+  margin: 2rem auto;
 }
 
 .img-content {
@@ -90,7 +88,10 @@ export default {
   margin-top: 5rem;
 }
 
-@media screen and (min-width: 1100px) {
+.test{
+  margin-top: 2rem;
+}
+@media screen and (min-width: 700px) {
 
   .second-container {
     display: flex;
@@ -114,15 +115,11 @@ export default {
     margin: 2rem auto;
   }
 
-  .el{
-    margin-bottom: -20rem;
-  }
-
   .test {
     margin-top: 2rem;
     opacity: 0.8;
-    height: 600px !important;
-    padding-bottom: 0 !important;
+    height: 500px;
+    width: 100%;
   }
 }
 </style>
