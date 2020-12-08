@@ -69,7 +69,7 @@ export default {
 .img-container {
   height: 200px;
   width: 200px;
-  margin: 2rem auto;
+  margin: auto;
 }
 
 .img-content {
@@ -96,14 +96,13 @@ export default {
 
   .third-content{
     display: flex;
-    flex-direction: column;
-    margin: 2rem 5rem;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .text-content3{
-    width: 90%;
-    margin: auto;
+    width: 40%;
+    margin: 2rem auto;
   }
 }
 </style>
