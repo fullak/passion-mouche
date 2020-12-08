@@ -13,7 +13,16 @@
     </div>
 
     <div class="navbar-end" >
-      <div class="navbar-start box"  v-if="showNavigation" @click="showNavigation = !showNavigation">
+      <div class="navbar-menu box is-active"  v-if="showNavigation" @click="showNavigation = !showNavigation">
+        <router-link to="/" class="navbar-item link">Accueil</router-link>
+        <router-link to="/articles" class="navbar-item link">Articles</router-link>
+        <router-link to="/calendar" class="navbar-item link">Calendrier</router-link>
+        <router-link to="/contact" class="navbar-item link">Contact</router-link>
+      </div>
+    </div>
+
+    <div class="navbar-end" >
+      <div class="navbar-menu">
         <router-link to="/" class="navbar-item link">Accueil</router-link>
         <router-link to="/articles" class="navbar-item link">Articles</router-link>
         <router-link to="/calendar" class="navbar-item link">Calendrier</router-link>
@@ -29,6 +38,7 @@ export default {
   data() {
     return{
       showNavigation: false,
+      showNavigationDesktop: true,
     }
   }
 }
