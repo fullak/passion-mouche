@@ -12,8 +12,8 @@
       </a>
     </div>
 
-    <div class="navbar-end">
-      <div class="navbar-start box" v-if="showNavigation" @click="showNavigation = !showNavigation">
+    <div class="navbar-end" >
+      <div class="navbar-start box"  v-if="showNavigation" @click="showNavigation = !showNavigation">
         <router-link to="/" class="navbar-item link">Accueil</router-link>
         <router-link to="/articles" class="navbar-item link">Articles</router-link>
         <router-link to="/calendar" class="navbar-item link">Calendrier</router-link>

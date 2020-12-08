@@ -14,9 +14,7 @@
           <h3 class="subtitle">Testing</h3>
           <p>
             Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-            top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-            innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-            intuitive benefits vis-a-vis worldwide quality vectors.
+            top-line technologies whereas functional paradigms.
           </p>
         </router-link>
       </div>
@@ -29,9 +27,7 @@
           <h3 class="subtitle">Testing</h3>
           <p>
             Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-            top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-            innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-            intuitive benefits vis-a-vis worldwide quality vectors.
+            top-line technologies whereas functional paradigms.
           </p>
         </router-link>
       </div>
@@ -43,9 +39,7 @@
           <h3 class="subtitle">Testing</h3>
           <p>
             Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-            top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-            innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-            intuitive benefits vis-a-vis worldwide quality vectors.
+            top-line technologies whereas functional paradigms.
           </p>
         </router-link>
       </div>
@@ -57,9 +51,7 @@
           <h3 class="subtitle">Testing</h3>
           <p>
             Dramatically actualize integrated leadership and enabled infrastructures. Professionally reconceptualize
-            top-line technologies whereas functional paradigms. Objectively plagiarize optimal alignments without customized
-            innovation. Seamlessly implement intermandated value for bricks-and-clicks expertise. Intrinsicly pontificate
-            intuitive benefits vis-a-vis worldwide quality vectors.
+            top-line technologies whereas functional paradigms.
           </p>
         </router-link>
       </div>
@@ -86,6 +78,23 @@ export default {
   height: 200px;
   width: 200px;
   border-radius: 50%;
+}
+
+@media screen and (min-width: 700px){
+  .articles-title{
+    width: 60%;
+    margin: 2rem auto;
+  }
+
+  .third-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .text-content3{
+    width: 48%;
+  }
 }
 
 </style>

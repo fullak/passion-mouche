@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <MainHeader />
     <MainContent class="mainContent-box"/>
   </div>
@@ -19,9 +19,5 @@ export default{
 </script>
 
 <style>
-.mainContent-box{
-  margin: 5rem auto 0;
-  width: 100%;
-}
 
 </style>

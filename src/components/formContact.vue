@@ -54,4 +54,11 @@ export default {
   margin: auto;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 700px){
+  .form-contact{
+    width: 60%;
+    margin: 2rem auto;
+  }
+}
 </style>

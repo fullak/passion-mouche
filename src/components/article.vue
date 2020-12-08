@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="img-article">
-      <img src="../assets/img/3.jpg" alt="#" class="article-img">
+      <img src="../assets/img/3.png" alt="#" class="article-img">
     </div>
     <div class="article-container box">
       <h2 class="title article-title">Title</h2>
@@ -34,24 +34,18 @@ export default {
 
 <style scoped>
 .img-article {
-  margin: 5rem auto;
+  margin: 5rem auto 2rem;
   width: 80%;
-}
-
-.article-container {
-
 }
 
 .article-img {
   border-radius: 20px;
 }
 
-.title,
-.subtitle {
-
-}
-
-.article-text {
-
+@media screen and (min-width: 700px){
+  .article-container{
+    width: 70%;
+    margin: auto;
+  }
 }
 </style>

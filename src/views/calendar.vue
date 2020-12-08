@@ -1,5 +1,6 @@
 <template>
   <div class="calendar-box">
+    <img src="../assets/img/calendar.png" alt="#" class="calendar-img">
     <h1 class="title event-title">Nos événements</h1>
 
     <Calendar />
@@ -20,5 +21,9 @@ export default {
 <style>
 .event-title{
   margin: 5rem auto;
+}
+
+.calendar-img{
+  opacity: 0.7;
 }
 </style>
