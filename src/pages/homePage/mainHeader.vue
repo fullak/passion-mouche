@@ -23,6 +23,10 @@ export default {
   opacity: 0.7;
 }
 
+.head-content{
+  margin-top: 2rem
+}
+
 @media screen and (min-width: 700px) {
   .head-content {
     width: 60%;

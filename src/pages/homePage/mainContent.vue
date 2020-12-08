@@ -88,10 +88,15 @@ export default {
   margin-top: 5rem;
 }
 
+.third-content{
+  width: 90%;
+  margin: auto;
+}
+
 .test{
   margin-top: 2rem;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1028px) {
 
   .second-container {
     display: flex;
