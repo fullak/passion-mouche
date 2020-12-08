@@ -18,8 +18,4 @@ export default {
 </script>
 
 <style scoped>
-.article-head{
-    background-color: #e9e8e0;
-    height: 250px;
-}
 </style>

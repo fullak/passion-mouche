@@ -21,6 +21,10 @@ export default {
 </script>
 
 <style>
+body{
+  margin: 0;
+}
+
 a{
   color: #2c3e50 !important;
 }
