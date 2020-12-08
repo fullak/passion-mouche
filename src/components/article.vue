@@ -45,7 +45,7 @@ export default {
 @media screen and (min-width: 700px){
   .article-container{
     width: 70%;
-    margin: auto;
+    justify-content: space-between;
   }
 }
 </style>

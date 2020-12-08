@@ -93,6 +93,11 @@ export default {
   margin: auto;
 }
 
+.text-details{
+  width: 80%;
+  margin: auto;
+}
+
 .test{
   margin-top: 2rem;
 }
