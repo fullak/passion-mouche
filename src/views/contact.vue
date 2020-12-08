@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="top-title">
-      <img src="../assets/img/contactImg.jpg" alt="#" class="contact-img"/>
+      <img src="../assets/img/contact.png" alt="#" class="contact-img"/>
       <h2 class="title contact-title box">Nous contacter</h2>
     </div>
     <div class="contact-content">

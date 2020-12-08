@@ -1,7 +1,7 @@
 <template>
   <div class="articles-container">
     <div class="articles-head">
-      <img src="../assets/img/articlesHead.jpg" alt="#" class="img-head">
+      <img src="../assets/img/articlesHead.png" alt="#" class="img-head">
       <h2 class="title box articles-title">Articles</h2>
     </div>
 
