@@ -46,11 +46,12 @@ export default {
 </script>
 
 <style>
-.form-contact{
-  width: 500px;
-}
 
-.form-buttons{
-  margin-left: 2rem;
+.buttons-container{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
 }
 </style>

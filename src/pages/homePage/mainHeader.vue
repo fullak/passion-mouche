@@ -1,31 +1,27 @@
 <template>
   <div>
-    <div class="introduction-container"></div>
-      <div class="introduction-box box">
-        <h2 class="title">Etang de Givallois</h2>
-        <p class="test">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi corporis dolore dolorem eligendi error hic ipsa ipsum laborum, modi natus nobis obcaecati repellendus saepe temporibus. Eos in modi odit.</p>
+    <div class="top-title">
+      <img src="../../assets/img/3.jpg" alt="#" class="head-img"/>
+      <div class="head-content box">
+        <h2 class="title head-title">Etang de Givallois</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi beatae blanditiis culpa explicabo in
+          libero
+          modi officia temporibus. Adipisci consequatur cum esse incidunt mollitia nemo ullam ut vel voluptas.</p>
       </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   name: 'header',
-  components: {
-  }
+  components: {}
 }
 </script>
 
 <style>
-.introduction-container{
-  height: 150px;
-  background-image: url("../../assets/img/3.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+.head-img {
   opacity: 0.7;
-}
-
-.introduction-box{
 }
 
 </style>
