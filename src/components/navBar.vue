@@ -5,7 +5,7 @@
         <h1 class="title main-title">Passion Mouche</h1>
       </router-link>
 
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" @click="show === !show">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" @click="showNavigation = !showNavigation">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -13,8 +13,8 @@
     </div>
 
     <div class="navbar-end">
-      <div class="navbar-start" v-if="show">
-        <router-link to="/" class="navbar-item">Accueil</router-link>
+      <div class="navbar-start box" v-if="showNavigation" @click="showNavigation = !showNavigation">
+        <router-link to="/" class="navbar-item link">Accueil</router-link>
         <router-link to="/articles" class="navbar-item link">Articles</router-link>
         <router-link to="/calendar" class="navbar-item link">Calendrier</router-link>
         <router-link to="/contact" class="navbar-item link">Contact</router-link>
@@ -28,7 +28,7 @@ export default {
   name: 'navBar',
   data() {
     return{
-      show: false,
+      showNavigation: false,
     }
   }
 }
