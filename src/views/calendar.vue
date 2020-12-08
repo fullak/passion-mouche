@@ -20,7 +20,7 @@ export default {
 
 <style>
 .event-title{
-  margin: 5rem auto;
+  margin: 1rem auto;
 }
 
 .calendar-img{

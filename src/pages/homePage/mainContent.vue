@@ -96,13 +96,14 @@ export default {
 
   .third-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 2rem 5rem;
     justify-content: space-between;
   }
 
   .text-content3{
-    width: 45%;
+    width: 90%;
+    margin: auto;
   }
 }
 </style>
