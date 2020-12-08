@@ -15,7 +15,6 @@
 <script>
 export default {
   name: 'header',
-  components: {}
 }
 </script>
 
@@ -24,8 +23,8 @@ export default {
   opacity: 0.7;
 }
 
-@media screen and (min-width: 700px){
-  .head-content{
+@media screen and (min-width: 700px) {
+  .head-content {
     width: 60%;
     margin: 2rem auto;
   }
